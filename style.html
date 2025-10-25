@@ -1,0 +1,27 @@
+/* Tailwind base classes + custom components */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  @apply bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center transition transform hover:-translate-y-1 hover:shadow-lg;
+}
+
+.card h3 {
+  @apply text-gray-600 text-sm uppercase tracking-wide;
+}
+
+.card p {
+  @apply text-3xl font-semibold text-indigo-600 mt-2;
+}
+
+.chart-box {
+  @apply bg-white p-6 rounded-xl shadow-md border border-gray-100 transition hover:shadow-lg;
+}
+
+.chart-box h3 {
+  @apply mb-4 text-gray-700 font-semibold text-lg;
+}
